@@ -1,8 +1,20 @@
 @import "../../styles/settings.scss";
 
-.columnForm {
+.card {
+	position: relative;
+	background: $color-light;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	padding: 5px;
+}
+
+button {
+	border: none;
+	color: $color-dark;
+	background-color: inherit;
+}
+
+.active {
+	color: gold;
 }
