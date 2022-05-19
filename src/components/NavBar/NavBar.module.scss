@@ -1,0 +1,25 @@
+@import "../../styles/settings.scss";
+
+nav {
+	background-color: darken($color-dark, 3%);
+}
+.navBarWrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+li {
+	display: inline;
+	margin-right: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: $color-light;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+span {
+	font-size: 30px;
+}
